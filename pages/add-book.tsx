@@ -63,7 +63,7 @@ export default function AddBook() {
               onChange={(e) => {
                 setTitle(e.target.value);
               }}
-            />
+         required   />
           </div>
           <div className="form-group mb-6">
             <label className="form-label inline-block mb-2 text-gray-700">
@@ -89,7 +89,7 @@ export default function AddBook() {
               onChange={(e) => {
                 setAuthor(e.target.value);
               }}
-            />
+         required   />
           </div>
 
           <div className="form-group mb-6">
@@ -116,7 +116,7 @@ export default function AddBook() {
               onChange={(e) => {
                 setDescription(e.target.value);
               }}
-            />
+              required />
           </div>
           <button
             type="submit"
